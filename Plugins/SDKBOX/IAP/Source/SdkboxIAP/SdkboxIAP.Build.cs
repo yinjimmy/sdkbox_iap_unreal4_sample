@@ -81,6 +81,7 @@ namespace UnrealBuildTool.Rules
 			{
 
                 PublicAdditionalLibraries.Add(Path.Combine(ModulePath, "../../lib/iOS/PluginIAP.a"));
+                PublicAdditionalLibraries.Add(Path.Combine(ModulePath, "../../lib/iOS/sdkbox.a"));
 
                 PublicFrameworks.AddRange(
                     new string[]
