@@ -22,6 +22,14 @@
 		{
 			"Name": "SteamVR",
 			"Enabled": false
+		},
+		{
+			"Name": "SdkboxIAP",
+			"Enabled": true
+		},
+		{
+			"Name": "Sdkbox",
+			"Enabled": true
 		}
 	],
 	"TargetPlatforms": [
